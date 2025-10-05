@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { FormData, FormStatus } from '../types';
-import { submitInquiry } from '../services/googleSheetsService';
+import { submitInquiry, isGoogleScriptConfigured } from '../services/googleSheetsService';
 
 const courseOptions = [
   'Business Management',
@@ -94,6 +94,13 @@ const InquiryForm: React.FC = () => {
             <p className="text-lg text-gray-600 mt-2">Fill out the form below, and our advisor will get in touch with you shortly.</p>
           </div>
           
+          {!isGoogleScriptConfigured && (
+            <div className="bg-orange-100 border-l-4 border-orange-500 text-orange-700 p-4 mb-6 rounded-md" role="alert">
+                <p className="font-bold">Developer Note: Form Not Connected</p>
+                <p>The inquiry form is currently in test mode. To connect it to your Google Sheet, please follow the setup instructions in the file: <code className="bg-orange-200 text-orange-800 px-1 py-0.5 rounded text-sm">services/googleSheetsService.ts</code>.</p>
+            </div>
+          )}
+
           {/* Progress Bar */}
           <div className="mb-8">
             <div className="flex items-center">

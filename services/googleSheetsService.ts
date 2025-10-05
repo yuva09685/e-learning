@@ -1,4 +1,3 @@
-
 import { FormData } from '../types';
 
 /**
@@ -59,8 +58,10 @@ import { FormData } from '../types';
 
 const GOOGLE_SCRIPT_URL = 'YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE';
 
+export const isGoogleScriptConfigured = GOOGLE_SCRIPT_URL !== 'YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE';
+
 export const submitInquiry = async (data: FormData): Promise<void> => {
-  if (GOOGLE_SCRIPT_URL === 'YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE') {
+  if (!isGoogleScriptConfigured) {
     console.error('ERROR: Google Apps Script URL is not configured. Please update it in services/googleSheetsService.ts');
     // Simulate a successful submission for UI testing purposes if the URL isn't set.
     // In a real scenario, you'd throw an error.
