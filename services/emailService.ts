@@ -12,8 +12,8 @@ export const isEmailServiceConfigured = !!(
   process.env.VITE_SMTP_TO_EMAIL
 );
 
-// Get the backend API URL from environment - defaults to local backend server
-const BACKEND_API_URL = process.env.VITE_BACKEND_API_URL || 'http://localhost:3001';
+// Get the backend API URL from environment - defaults to Vercel deployment
+const BACKEND_API_URL = process.env.VITE_BACKEND_API_URL || '';
 
 export const submitInquiry = async (data: FormData): Promise<void> => {
   try {

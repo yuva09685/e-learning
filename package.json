@@ -10,11 +10,14 @@
   },
   "dependencies": {
     "dotenv": "^17.2.3",
+    "nodemailer": "^6.9.1",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
+    "@types/nodemailer": "^6.4.17",
+    "@vercel/node": "^3.2.6",
     "@vitejs/plugin-react": "^5.0.0",
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
