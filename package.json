@@ -16,8 +16,8 @@
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
-    "@types/nodemailer": "^6.4.17",
-    "@vercel/node": "^3.2.6",
+    "@types/nodemailer": "^6.4.20",
+    "@vercel/node": "^3.2.29",
     "@vitejs/plugin-react": "^5.0.0",
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
