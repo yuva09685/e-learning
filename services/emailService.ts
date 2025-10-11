@@ -5,19 +5,14 @@ import type { FormData } from '../types';
  * This service sends an email with the form data to the configured recipient address
  */
 
-export const isEmailServiceConfigured = !!(
-  process.env.VITE_SMTP_HOST && 
-  process.env.VITE_SMTP_PORT && 
-  process.env.VITE_SMTP_USER && 
-  process.env.VITE_SMTP_TO_EMAIL
-);
+export const isEmailServiceConfigured = true; // Assume service is configured since we're using API route
 
-// Get the backend API URL from environment - defaults to Vercel deployment
-const BACKEND_API_URL = process.env.VITE_BACKEND_API_URL || '';
+// Use relative path for API endpoint to work with Vercel deployment
+const BACKEND_API_URL = '';
 
 export const submitInquiry = async (data: FormData): Promise<void> => {
   try {
-    const response = await fetch(`${BACKEND_API_URL}/api/send-email`, {
+    const response = await fetch(`/api/send-email`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
