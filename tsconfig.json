@@ -26,5 +26,19 @@
     "noEmit": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true
-  }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "index.tsx",
+    "App.tsx",
+    "components/**/*",
+    "services/**/*",
+    "types.ts",
+    "env.d.ts"
+  ],
+  "exclude": [
+    "test-email.ts",
+    "node_modules"
+  ]
 }
