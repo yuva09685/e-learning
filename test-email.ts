@@ -27,7 +27,7 @@ async function testEmailConfiguration() {
 
   try {
     // Create transporter
-    const transporter = nodemailer.createTransporter({
+    const transporter = nodemailer.createTransport({
       host: smtpHost,
       port: smtpPort,
       secure: smtpPort === 465, // true for 465, false for other ports
