@@ -40,7 +40,7 @@ const Header: React.FC = () => {
           key={link.name} 
           href={link.href} 
           onClick={onLinkClick} 
-          className="relative block py-2 px-3 text-brand-dark md:text-white font-medium transition-colors after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-0.5 after:bg-brand-accent after:scale-x-0 after:origin-left after:transition-transform hover:after:scale-x-100"
+          className="relative block py-2 px-3 text-brand-light md:text-white font-medium transition-colors after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-0.5 after:bg-brand-accent after:scale-x-0 after:origin-left after:transition-transform hover:after:scale-x-100"
         >
           {link.name}
         </a>
@@ -51,8 +51,8 @@ const Header: React.FC = () => {
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-black/30 backdrop-blur-lg shadow-lg' : 'bg-transparent'}`}>
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-        <a href="#home" className="text-2xl font-bold font-serif text-white z-50">
-          Suyam's Learning
+        <a href="#home" className="z-50 flex items-center">
+          <img src="/Logo.png" alt="Suyam's Learning Logo" className="h-20 w-auto filter brightness-125 contrast-150 drop-shadow-lg" />
         </a>
         
         {/* Desktop Navigation */}
@@ -61,7 +61,7 @@ const Header: React.FC = () => {
             <NavLinks />
           </nav>
           <div className="flex items-center gap-2">
-            <a href="#inquiry" className="bg-brand-secondary text-brand-primary font-bold py-2 px-6 rounded-lg hover:bg-amber-400 transition-all transform hover:scale-105 shadow-md">
+            <a href="#inquiry" className="bg-brand-secondary text-white font-bold py-2 px-6 rounded-lg hover:bg-amber-400 transition-all transform hover:scale-105 shadow-md">
               Enquire Now
             </a>
           </div>
@@ -97,21 +97,21 @@ const Header: React.FC = () => {
       </div>
 
       {/* Mobile Menu Overlay */}
-      <div className={`md:hidden fixed inset-0 bg-brand-light z-40 transform ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300 ease-in-out`}>
+      <div className={`md:hidden fixed inset-0 bg-brand-primary z-40 transform ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300 ease-in-out`}>
         <div className="pt-24 px-6 flex flex-col items-center text-center space-y-4">
           <NavLinks onLinkClick={() => setIsMobileMenuOpen(false)} />
           <a 
             href="#inquiry" 
             onClick={() => setIsMobileMenuOpen(false)} 
-            className="w-full bg-brand-secondary text-brand-primary font-bold py-3 px-6 rounded-lg hover:bg-amber-400 transition-all transform hover:scale-105 shadow-md"
+            className="w-full bg-brand-secondary text-white font-bold py-3 px-6 rounded-lg hover:bg-amber-400 transition-all transform hover:scale-105 shadow-md"
           >
             Enquire Now
           </a>
           <div className="flex flex-col gap-2 pt-4 border-t w-full border-brand-secondary/30">
             <a 
-              href="/privacy-policy" 
-              onClick={() => setIsMobileMenuOpen(false)} 
-              className="text-brand-primary py-2 hover:text-brand-secondary transition-colors"
+              href="/privacy-policy"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="text-brand-light py-2 hover:text-brand-secondary transition-colors"
             >
               Privacy Policy
             </a>

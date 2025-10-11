@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const CheckIcon = () => (
@@ -10,7 +9,7 @@ const CheckIcon = () => (
 
 const About: React.FC = () => {
   return (
-    <section id="about" className="py-20 bg-white">
+    <section id="about" className="py-20 bg-brand-primary">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="md:w-1/2">
@@ -21,32 +20,32 @@ const About: React.FC = () => {
             />
           </div>
           <div className="md:w-1/2">
-            <h2 className="text-3xl md:text-4xl font-serif font-bold text-brand-primary mb-4">
+            <h2 className="text-3xl md:text-4xl font-serif font-bold text-brand-dark mb-4">
               Pioneering Education for a Brighter Future
             </h2>
-            <p className="text-gray-600 mb-6 text-lg">
+            <p className="text-brand-light mb-6 text-lg">
               At Suyam's Learning, we are dedicated to providing an enriching and transformative educational experience. Our affiliation with The British International Learning Institute ensures our curriculum is globally recognized and up-to-date with the latest industry standards.
             </p>
             <ul className="space-y-4">
               <li className="flex items-start gap-4">
                 <CheckIcon />
                 <div>
-                    <h3 className="font-semibold text-brand-primary">Globally Recognized Curriculum</h3>
-                    <p className="text-gray-500">Our courses are benchmarked against international standards of excellence.</p>
+                    <h3 className="font-semibold text-brand-dark">Globally Recognized Curriculum</h3>
+                    <p className="text-brand-light">Our courses are benchmarked against international standards of excellence.</p>
                 </div>
               </li>
               <li className="flex items-start gap-4">
                 <CheckIcon />
                 <div>
-                    <h3 className="font-semibold text-brand-primary">Expert Faculty</h3>
-                    <p className="text-gray-500">Learn from seasoned industry professionals and experienced academics.</p>
+                    <h3 className="font-semibold text-brand-dark">Expert Faculty</h3>
+                    <p className="text-brand-light">Learn from seasoned industry professionals and experienced academics.</p>
                 </div>
               </li>
               <li className="flex items-start gap-4">
                 <CheckIcon />
                 <div>
-                    <h3 className="font-semibold text-brand-primary">Holistic Development</h3>
-                    <p className="text-gray-500">We focus on not just academic skills but also personal and professional growth.</p>
+                    <h3 className="font-semibold text-brand-dark">Holistic Development</h3>
+                    <p className="text-brand-light">We focus on not just academic skills but also personal and professional growth.</p>
                 </div>
               </li>
             </ul>

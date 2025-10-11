@@ -3,6 +3,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import PromoImage from './components/PromoImage';
 import About from './components/About';
 import Features from './components/Features';
 import Courses from './components/Courses';
@@ -18,10 +19,11 @@ const App: React.FC = () => {
   return (
     <Routes>
       <Route path="/" element={
-        <div className="bg-brand-light font-sans text-brand-dark">
+        <div className="bg-brand-primary font-sans text-brand-light">
           <Header />
           <main>
             <Hero />
+            <PromoImage />
             <Reveal><About /></Reveal>
             <Reveal><Features /></Reveal>
             <Reveal><Stats /></Reveal>

@@ -76,7 +76,7 @@ const CourseCard: React.FC<{ course: Course; onClick: () => void }> = ({ course,
             <p className="text-gray-600 mb-6 h-24">{course.description}</p>
             <button
               onClick={onClick}
-              className="mt-auto bg-brand-secondary text-brand-primary font-bold py-2 px-4 rounded-lg transition-all transform hover:scale-105 shadow-md hover:shadow-lg hover:bg-amber-400"
+              className="mt-auto bg-brand-secondary text-white font-bold py-2 px-4 rounded-lg transition-all transform hover:scale-105 shadow-md hover:shadow-lg hover:bg-amber-400"
             >
               Learn More &rarr;
             </button>
@@ -113,11 +113,11 @@ const Courses: React.FC = () => {
 
   return (
     <>
-      <section id="courses" className="py-20 bg-brand-light">
+      <section id="courses" className="py-20 bg-brand-primary">
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-serif font-bold text-brand-primary">Our Premier Courses</h2>
-            <p className="text-lg text-gray-600 mt-4 max-w-2xl mx-auto">Designed for success, our courses blend theory with practical, real-world application.</p>
+            <h2 className="text-3xl md:text-4xl font-serif font-bold text-brand-dark">Our Premier Courses</h2>
+            <p className="text-lg text-brand-light mt-4 max-w-2xl mx-auto">Designed for success, our courses blend theory with practical, real-world application.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             {courseData.map((course, index) => (
@@ -141,7 +141,7 @@ const Courses: React.FC = () => {
           >
             <button
               onClick={() => setSelectedCourse(null)}
-              className="absolute top-4 right-4 bg-brand-secondary text-brand-primary hover:bg-amber-400 transition-all p-2 rounded-full shadow-md"
+              className="absolute top-4 right-4 bg-brand-secondary text-white hover:bg-amber-400 transition-all p-2 rounded-full shadow-md"
               aria-label="Close course details"
             >
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">

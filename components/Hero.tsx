@@ -10,7 +10,6 @@ const Hero: React.FC = () => {
           animation: 'gradient-shift 15s ease infinite'
         }}
       ></div>
-      <div className="absolute inset-0 bg-cover bg-center opacity-10" style={{ backgroundImage: "url('https://picsum.photos/1920/1080?random=1')" }}></div>
       
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="bg-black/40 backdrop-blur-md p-8 rounded-xl max-w-4xl mx-auto shadow-2xl animate-fade-in">
@@ -23,7 +22,7 @@ const Hero: React.FC = () => {
           <p className="text-lg md:text-xl text-brand-light mb-8 max-w-2xl mx-auto">
             We provide world-class education and personalized mentorship to shape the leaders of tomorrow.
           </p>
-          <a href="#inquiry" className="bg-brand-secondary text-brand-primary font-bold py-4 px-10 rounded-lg text-lg hover:bg-amber-400 transition-all transform hover:scale-105 inline-block shadow-lg hover:shadow-xl">
+          <a href="#inquiry" className="bg-brand-secondary text-white font-bold py-4 px-10 rounded-lg text-lg hover:bg-amber-400 transition-all transform hover:scale-105 inline-block shadow-lg hover:shadow-xl">
             Start Your Journey Today
           </a>
         </div>
