@@ -189,7 +189,7 @@ const InquiryForm: React.FC = () => {
               <button 
                 type="submit" 
                 disabled={status === FormStatus.Loading} 
-                className="w-full md:w-auto bg-brand-secondary text-white font-bold py-3 px-6 rounded-md hover:bg-opacity-90 transition-all transform hover:scale-105 disabled:bg-gray-400 disabled:cursor-not-allowed flex items-center justify-center h-12 min-w-[200px]"
+                className="w-full md:w-auto bg-brand-secondary text-brand-primary font-bold py-3 px-6 rounded-lg hover:bg-amber-400 transition-all transform hover:scale-105 shadow-md disabled:bg-gray-400 disabled:cursor-not-allowed flex items-center justify-center h-12 min-w-[200px]"
               >
                 {status === FormStatus.Loading ? (
                   <>

@@ -26,12 +26,12 @@ const FAQAccordionItem: React.FC<{ faq: FAQItem; isOpen: boolean; onClick: () =>
     <div className="border-b">
       <button
         onClick={onClick}
-        className="w-full flex justify-between items-center text-left py-4 px-2 hover:bg-gray-50 transition-colors"
+        className="w-full flex justify-between items-center text-left py-4 px-2 hover:bg-brand-light transition-colors"
         aria-expanded={isOpen}
       >
         <span className="text-lg font-medium text-brand-primary">{faq.question}</span>
         <span className={`transform transition-transform duration-300 ${isOpen ? 'rotate-180' : 'rotate-0'}`}>
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-brand-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
           </svg>
         </span>
@@ -39,7 +39,7 @@ const FAQAccordionItem: React.FC<{ faq: FAQItem; isOpen: boolean; onClick: () =>
       <div
         className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? 'max-h-96' : 'max-h-0'}`}
       >
-        <div className="p-4 text-gray-600 bg-gray-50">
+        <div className="p-4 text-gray-600 bg-brand-light">
           <p>{faq.answer}</p>
         </div>
       </div>

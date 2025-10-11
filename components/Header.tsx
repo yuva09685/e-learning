@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -21,11 +22,15 @@ const Header: React.FC = () => {
   }, [isMobileMenuOpen]);
 
   const navLinks = [
-    { name: 'Home', href: '#home' },
-    { name: 'About Us', href: '#about' },
-    { name: 'Our Director', href: '#director' },
-    { name: 'Courses', href: '#courses' },
-    { name: 'FAQ', href: '#faq' },
+    { name: 'Home', href: '/', isExternal: false },
+    { name: 'About Us', href: '#about', isExternal: false },
+    { name: 'Courses', href: '#courses', isExternal: false },
+    { name: 'FAQ', href: '#faq', isExternal: false },
+  ];
+
+  const legalLinks = [
+    { name: 'Privacy Policy', href: '/privacy-policy' },
+    { name: 'Terms & Conditions', href: '/terms-and-conditions' },
   ];
 
   const NavLinks: React.FC<{onLinkClick?: () => void}> = ({ onLinkClick }) => (
@@ -55,9 +60,22 @@ const Header: React.FC = () => {
           <nav className="flex items-center gap-2">
             <NavLinks />
           </nav>
-          <a href="#inquiry" className="bg-brand-accent text-brand-primary font-bold py-2 px-6 rounded-full hover:bg-opacity-90 transition-all transform hover:scale-105">
-            Enquire Now
-          </a>
+          <div className="flex items-center gap-2">
+            <a href="#inquiry" className="bg-brand-secondary text-brand-primary font-bold py-2 px-6 rounded-lg hover:bg-amber-400 transition-all transform hover:scale-105 shadow-md">
+              Enquire Now
+            </a>
+          </div>
+          <div className="flex flex-col gap-1">
+            {legalLinks.map((link) => (
+              <Link 
+                key={link.name}
+                to={link.href}
+                className="text-white text-sm hover:text-brand-accent transition-colors"
+              >
+                {link.name}
+              </Link>
+            ))}
+          </div>
         </div>
         
         {/* Mobile Menu Button */}
@@ -79,16 +97,32 @@ const Header: React.FC = () => {
       </div>
 
       {/* Mobile Menu Overlay */}
-      <div className={`md:hidden fixed inset-0 bg-white/90 backdrop-blur-lg z-40 transform ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300 ease-in-out`}>
+      <div className={`md:hidden fixed inset-0 bg-brand-light z-40 transform ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300 ease-in-out`}>
         <div className="pt-24 px-6 flex flex-col items-center text-center space-y-4">
           <NavLinks onLinkClick={() => setIsMobileMenuOpen(false)} />
           <a 
             href="#inquiry" 
             onClick={() => setIsMobileMenuOpen(false)} 
-            className="w-full bg-brand-secondary text-white font-bold py-3 px-6 rounded-full hover:bg-opacity-90 transition-all transform hover:scale-105"
+            className="w-full bg-brand-secondary text-brand-primary font-bold py-3 px-6 rounded-lg hover:bg-amber-400 transition-all transform hover:scale-105 shadow-md"
           >
             Enquire Now
           </a>
+          <div className="flex flex-col gap-2 pt-4 border-t w-full border-brand-secondary/30">
+            <a 
+              href="/privacy-policy" 
+              onClick={() => setIsMobileMenuOpen(false)} 
+              className="text-brand-primary py-2 hover:text-brand-secondary transition-colors"
+            >
+              Privacy Policy
+            </a>
+            <a 
+              href="/terms-and-conditions" 
+              onClick={() => setIsMobileMenuOpen(false)} 
+              className="text-brand-primary py-2 hover:text-brand-secondary transition-colors"
+            >
+              Terms & Conditions
+            </a>
+          </div>
         </div>
       </div>
     </header>

@@ -64,11 +64,11 @@ const CheckIcon = () => (
 
 const CourseCard: React.FC<{ course: Course; onClick: () => void }> = ({ course, onClick }) => {
   return (
-    <div className="group" style={{ perspective: '1000px' }}>
-      <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-500 transform group-hover:-translate-y-2 group-hover:[transform:rotateX(10deg)] border-t-4 border-brand-accent">
-          <div className="transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:translateZ(40px)]">
+    <div className="group">
+      <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform group-hover:-translate-y-2 border border-gray-200 bg-gradient-to-br from-white to-[#FDF2E9]">
+          <div className="transition-all duration-300">
             <div className="flex items-center gap-4 mb-4">
-              <div className="bg-brand-secondary text-white p-4 rounded-full flex-shrink-0">
+              <div className="bg-gradient-to-br from-[#D13ABD] to-[#EEBD89] text-white p-4 rounded-xl flex-shrink-0 shadow-md">
                 {course.icon}
               </div>
               <h3 className="text-xl font-bold text-brand-primary">{course.title}</h3>
@@ -76,7 +76,7 @@ const CourseCard: React.FC<{ course: Course; onClick: () => void }> = ({ course,
             <p className="text-gray-600 mb-6 h-24">{course.description}</p>
             <button
               onClick={onClick}
-              className="mt-auto text-brand-secondary font-bold hover:text-brand-primary transition-colors self-start group-hover:underline"
+              className="mt-auto bg-brand-secondary text-brand-primary font-bold py-2 px-4 rounded-lg transition-all transform hover:scale-105 shadow-md hover:shadow-lg hover:bg-amber-400"
             >
               Learn More &rarr;
             </button>
@@ -141,10 +141,10 @@ const Courses: React.FC = () => {
           >
             <button
               onClick={() => setSelectedCourse(null)}
-              className="absolute top-4 right-4 text-gray-400 hover:text-gray-800 transition-colors"
+              className="absolute top-4 right-4 bg-brand-secondary text-brand-primary hover:bg-amber-400 transition-all p-2 rounded-full shadow-md"
               aria-label="Close course details"
             >
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
               </svg>
             </button>

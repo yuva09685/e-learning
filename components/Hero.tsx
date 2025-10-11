@@ -4,7 +4,7 @@ const Hero: React.FC = () => {
   return (
     <section id="home" className="relative text-white pt-32 pb-20 min-h-screen flex items-center overflow-hidden">
       <div 
-        className="absolute inset-0 bg-gradient-to-br from-brand-primary via-blue-900 to-brand-secondary"
+        className="absolute inset-0 bg-gradient-to-br from-brand-primary to-brand-secondary"
         style={{
           backgroundSize: '200% 200%',
           animation: 'gradient-shift 15s ease infinite'
@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
           <p className="text-lg md:text-xl text-brand-light mb-8 max-w-2xl mx-auto">
             We provide world-class education and personalized mentorship to shape the leaders of tomorrow.
           </p>
-          <a href="#inquiry" className="bg-brand-accent text-brand-primary font-bold py-4 px-10 rounded-full text-lg hover:bg-opacity-90 transition-transform transform hover:scale-110 inline-block">
+          <a href="#inquiry" className="bg-brand-secondary text-brand-primary font-bold py-4 px-10 rounded-lg text-lg hover:bg-amber-400 transition-all transform hover:scale-105 inline-block shadow-lg hover:shadow-xl">
             Start Your Journey Today
           </a>
         </div>
