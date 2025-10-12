@@ -14,7 +14,7 @@ const About: React.FC = () => {
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="md:w-1/2">
             <img 
-              src="https://picsum.photos/600/400?random=2" 
+              src="./public/promitionalbanner.png" 
               alt="Students learning at Suyam's Institute" 
               className="rounded-lg shadow-2xl object-cover w-full h-full"
             />

@@ -90,25 +90,7 @@ const CourseCard: React.FC<{ course: Course; onClick: () => void }> = ({ course,
 const Courses: React.FC = () => {
   const [selectedCourse, setSelectedCourse] = useState<Course | null>(null);
   
-  useEffect(() => {
-    const handleEscKey = (event: KeyboardEvent) => {
-      if (event.key === 'Escape') {
-        setSelectedCourse(null);
-      }
-    };
 
-    if (selectedCourse) {
-      document.body.style.overflow = 'hidden';
-      document.addEventListener('keydown', handleEscKey);
-    } else {
-      document.body.style.overflow = 'auto';
-    }
-
-    return () => {
-      document.removeEventListener('keydown', handleEscKey);
-       document.body.style.overflow = 'auto';
-    };
-  }, [selectedCourse]);
 
 
   return (

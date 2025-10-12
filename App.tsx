@@ -23,7 +23,7 @@ const App: React.FC = () => {
           <Header />
           <main>
             <Hero />
-            <PromoImage />
+            {/* <PromoImage /> */}
             <Reveal><About /></Reveal>
             <Reveal><Features /></Reveal>
             <Reveal><Stats /></Reveal>

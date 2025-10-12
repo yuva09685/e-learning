@@ -123,8 +123,7 @@ const InquiryForm: React.FC = () => {
                   required 
                   value={formData.name} 
                   onChange={handleChange} 
-                  className="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-brand-secondary focus:border-brand-secondary" 
-                  placeholder="Enter your full name"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-brand-secondary focus:border-brand-secondary text-black" placeholder="Enter your full name"
                 />
               </div>
               
@@ -137,9 +136,8 @@ const InquiryForm: React.FC = () => {
                   required 
                   value={formData.email} 
                   onChange={handleChange} 
-                  className="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-brand-secondary focus:border-brand-secondary" 
-                  placeholder="Enter your email address"
-                />
+                                    className="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-brand-secondary focus:border-brand-secondary text-black"
+                                    placeholder="Enter your email address"                />
               </div>
               
               <div>
@@ -151,7 +149,7 @@ const InquiryForm: React.FC = () => {
                   required 
                   value={formData.phone} 
                   onChange={handleChange} 
-                  className="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-brand-secondary focus:border-brand-secondary" 
+className="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-brand-secondary focus:border-brand-secondary text-black" 
                   placeholder="Enter your phone number"
                 />
               </div>
@@ -163,7 +161,7 @@ const InquiryForm: React.FC = () => {
                   id="course" 
                   value={formData.course} 
                   onChange={handleChange} 
-                  className="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-brand-secondary focus:border-brand-secondary bg-white"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-brand-secondary focus:border-brand-secondary bg-white text-black"
                 >
                   {courseOptions.map(option => (
                     <option key={option} value={option}>{option}</option>
@@ -180,7 +178,7 @@ const InquiryForm: React.FC = () => {
                 rows={4} 
                 value={formData.message} 
                 onChange={handleChange} 
-                className="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-brand-secondary focus:border-brand-secondary" 
+                className="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-brand-secondary focus:border-brand-secondary text-black" 
                 placeholder="Tell us about your learning goals or ask any questions..."
               ></textarea>
             </div>

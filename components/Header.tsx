@@ -53,6 +53,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <a href="#home" className="z-50 flex items-center">
           <img src="/Logo.png" alt="Suyam's Learning Logo" className="h-20 w-auto filter brightness-125 contrast-150 drop-shadow-lg" />
+          <span className="ml-3 text-2xl font-bold text-white">Suyam's Learning</span>
         </a>
         
         {/* Desktop Navigation */}
