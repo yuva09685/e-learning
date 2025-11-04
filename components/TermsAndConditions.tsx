@@ -12,13 +12,13 @@ const TermsAndConditions: React.FC = () => {
           </p>
           
           <p className="text-gray-700 mb-6">
-            Welcome to suyam's IIMT institute. These terms and conditions outline the rules and regulations 
-            for the use of suyam's IIMT institute's Website and Educational Services.
+            Welcome to suyam's IMTT institute. These terms and conditions outline the rules and regulations 
+            for the use of suyam's IMTT institute's Website and Educational Services.
           </p>
           
           <p className="text-gray-700 mb-6">
             By accessing this website and enrolling in our courses, we assume you accept these terms 
-            and conditions. Do not continue to use suyam's IIMT institute if you do not agree to take all 
+            and conditions. Do not continue to use suyam's IMTT institute if you do not agree to take all 
             of the terms and conditions stated on this page.
           </p>
           
@@ -40,7 +40,7 @@ const TermsAndConditions: React.FC = () => {
           
           <p className="text-gray-700 mb-4">
             All content, materials, and resources provided as part of our courses are the intellectual 
-            property of suyam's IIMT institute and are protected by copyright laws. You may not reproduce, 
+            property of suyam's IMTT institute and are protected by copyright laws. You may not reproduce, 
             distribute, or create derivative works from our content without explicit written permission.
           </p>
           
@@ -70,7 +70,7 @@ const TermsAndConditions: React.FC = () => {
           <h2 className="text-2xl font-serif font-bold text-brand-primary mt-8 mb-4">Limitation of Liability</h2>
           
           <p className="text-gray-700 mb-6">
-            In no event shall suyam's IIMT institute, nor its directors, employees, partners, agents, 
+            In no event shall suyam's IMTT institute, nor its directors, employees, partners, agents, 
             suppliers, or affiliates, be liable for any indirect, incidental, special, consequential, 
             or punitive damages, including without limitation, loss of profits, data, use, goodwill, 
             or other intangible losses, resulting from your access to or use of our service or any 

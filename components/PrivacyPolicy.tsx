@@ -12,7 +12,7 @@ const PrivacyPolicy: React.FC = () => {
           </p>
           
           <p className="text-gray-700 mb-6">
-            suyam's IIMT institute ("we", "our", "us") operates the suyam's IIMT institute website and provides 
+            suyam's IMTT institute ("we", "our", "us") operates the suyam's IMTT institute website and provides 
             educational services. This page informs you of our policies regarding the collection, 
             use, and disclosure of personal data when you use our services and the choices you have 
             associated with that data.
@@ -54,7 +54,7 @@ const PrivacyPolicy: React.FC = () => {
           
           <h2 className="text-2xl font-serif font-bold text-brand-primary mt-8 mb-4">Use of Data</h2>
           <p className="text-gray-700 mb-4">
-            suyam's IIMT institute uses the collected data for various purposes:
+            suyam's IMTT institute uses the collected data for various purposes:
           </p>
           
           <ul className="list-disc pl-8 text-gray-700 mb-6">

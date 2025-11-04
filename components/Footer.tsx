@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
           <div>
-            <h3 className="text-xl font-serif font-bold mb-4">suyam's IIMT institute</h3>
+            <h3 className="text-xl font-serif font-bold mb-4">suyam's IMTT institute</h3>
             <p className="text-gray-400">Pioneering excellence in education, affiliated with certified training center - british learning uk.</p>
           </div>
           <div>
@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-gray-700 text-center text-gray-500 flex flex-col sm:flex-row justify-center items-center gap-4">
-          <p>&copy; {new Date().getFullYear()} suyam's IIMT institute. All Rights Reserved.</p>
+          <p>&copy; {new Date().getFullYear()} suyam's IMTT institute. All Rights Reserved.</p>
           <div className="flex gap-4">
              <Link to="/privacy-policy" className="hover:text-white text-sm">Privacy Policy</Link>
              <Link to="/terms-and-conditions" className="hover:text-white text-sm">Terms of Service</Link>

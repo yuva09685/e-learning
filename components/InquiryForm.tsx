@@ -4,14 +4,14 @@ import { FormData, FormStatus } from '../types';
 import { submitInquiry, isEmailServiceConfigured } from '../services/emailService';
 
 const courseOptions = [
-  'Business Management',
-  'Data Science & Analytics',
-  'Digital Marketing',
-  'International Finance',
-  'Web Development',
-  'Cloud Computing',
-  'Cybersecurity',
-  'Project Management',
+  'PG Diploma In Child Counselling',
+  'Diploma In Child Psychology',
+  'PG Diploma In Special Needs Education',
+  'Diploma In Special Needs Education',
+  'PG Diploma in International Teachers Training',
+  'Diploma in Pre-Primary Teachers Training',
+  'PG Diploma in Early Childhood Care & Education',
+  'Diploma in Early Childhood Care and Education',
   'Other'
 ];
 
