@@ -2,7 +2,7 @@ import React from 'react';
 
 const PrivacyPolicy: React.FC = () => {
   return (
-    <div className="bg-brand-light min-h-screen py-12">
+    <div className="bg-brand-light min-h-screen pt-24 pb-12">
       <div className="container mx-auto px-6 max-w-4xl">
         <div className="bg-white rounded-lg shadow-lg p-8">
           <h1 className="text-3xl md:text-4xl font-serif font-bold text-brand-primary mb-6">Privacy Policy</h1>
@@ -12,7 +12,7 @@ const PrivacyPolicy: React.FC = () => {
           </p>
           
           <p className="text-gray-700 mb-6">
-            Suyam's Learning ("we", "our", "us") operates the suyam's learning website and provides 
+            suyam's IIMT institute ("we", "our", "us") operates the suyam's IIMT institute website and provides 
             educational services. This page informs you of our policies regarding the collection, 
             use, and disclosure of personal data when you use our services and the choices you have 
             associated with that data.
@@ -54,7 +54,7 @@ const PrivacyPolicy: React.FC = () => {
           
           <h2 className="text-2xl font-serif font-bold text-brand-primary mt-8 mb-4">Use of Data</h2>
           <p className="text-gray-700 mb-4">
-            Suyam's Learning uses the collected data for various purposes:
+            suyam's IIMT institute uses the collected data for various purposes:
           </p>
           
           <ul className="list-disc pl-8 text-gray-700 mb-6">

@@ -11,22 +11,15 @@ const About: React.FC = () => {
   return (
     <section id="about" className="py-20 bg-brand-primary">
       <div className="container mx-auto px-6">
-        <div className="flex flex-col md:flex-row items-center gap-12">
-          <div className="md:w-1/2">
-            <img 
-              src="./public/promitionalbanner.png" 
-              alt="Students learning at Suyam's Institute" 
-              className="rounded-lg shadow-2xl object-cover w-full h-full"
-            />
-          </div>
-          <div className="md:w-1/2">
+        <div className="flex flex-col items-center gap-8">
+          <div className="text-center max-w-3xl">
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-brand-dark mb-4">
               Pioneering Education for a Brighter Future
             </h2>
             <p className="text-brand-light mb-6 text-lg">
-              At Suyam's Learning, we are dedicated to providing an enriching and transformative educational experience. Our affiliation with The British International Learning Institute ensures our curriculum is globally recognized and up-to-date with the latest industry standards.
+              At suyam's IIMT institute, we are dedicated to providing an enriching and transformative educational experience. We are a certified training center - british learning uk, which ensures our curriculum is globally recognized and up-to-date with the latest industry standards.
             </p>
-            <ul className="space-y-4">
+            <ul className="space-y-4 text-left">
               <li className="flex items-start gap-4">
                 <CheckIcon />
                 <div>

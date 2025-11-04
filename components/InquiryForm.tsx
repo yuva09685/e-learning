@@ -8,6 +8,10 @@ const courseOptions = [
   'Data Science & Analytics',
   'Digital Marketing',
   'International Finance',
+  'Web Development',
+  'Cloud Computing',
+  'Cybersecurity',
+  'Project Management',
   'Other'
 ];
 

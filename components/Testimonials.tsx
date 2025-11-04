@@ -4,7 +4,7 @@ import { Testimonial } from '../types';
 
 const testimonialData: Testimonial[] = [
   {
-    quote: "The curriculum at Suyam's Learning is incredibly comprehensive. The affiliation with the British International Learning Institute gave me the confidence that I was receiving a top-tier education.",
+    quote: "The curriculum at suyam's IIMT institute is incredibly comprehensive. The affiliation with the certified training center - british learning uk gave me the confidence that I was receiving a top-tier education.",
     name: 'Priya Sharma',
     course: 'Business Management',
     avatarUrl: 'https://picsum.photos/100/100?random=3'

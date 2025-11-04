@@ -3,7 +3,6 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import PromoImage from './components/PromoImage';
 import About from './components/About';
 import Features from './components/Features';
 import Courses from './components/Courses';
@@ -34,8 +33,20 @@ const App: React.FC = () => {
           <Footer />
         </div>
       } />
-      <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-      <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+      <Route path="/privacy-policy" element={
+        <div className="bg-brand-primary font-sans text-brand-light">
+          <Header />
+          <PrivacyPolicy />
+          <Footer />
+        </div>
+      } />
+      <Route path="/terms-and-conditions" element={
+        <div className="bg-brand-primary font-sans text-brand-light">
+          <Header />
+          <TermsAndConditions />
+          <Footer />
+        </div>
+      } />
     </Routes>
   );
 };

@@ -49,11 +49,11 @@ const Header: React.FC = () => {
   );
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-black/30 backdrop-blur-lg shadow-lg' : 'bg-transparent'}`}>
+    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-black/30 backdrop-blur-lg shadow-lg' : 'bg-brand-primary'}`}>
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <a href="#home" className="z-50 flex items-center">
-          <img src="/Logo.png" alt="Suyam's Learning Logo" className="h-20 w-auto filter brightness-125 contrast-150 drop-shadow-lg" />
-          <span className="ml-3 text-2xl font-bold text-white">Suyam's Learning</span>
+          <img src="/Logo.png" alt="suyam's IIMT institute Logo" className="h-20 w-auto filter brightness-125 contrast-150 drop-shadow-lg" />
+          <span className="ml-3 text-2xl font-bold text-white">suyam's IIMT institute</span>
         </a>
         
         {/* Desktop Navigation */}
@@ -130,4 +130,4 @@ const Header: React.FC = () => {
   );
 };
 
-export default Header;
+export default Header
