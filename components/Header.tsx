@@ -28,11 +28,6 @@ const Header: React.FC = () => {
     { name: 'FAQ', href: '#faq', isExternal: false },
   ];
 
-  const legalLinks = [
-    { name: 'Privacy Policy', href: '/privacy-policy' },
-    { name: 'Terms & Conditions', href: '/terms-and-conditions' },
-  ];
-
   const NavLinks: React.FC<{onLinkClick?: () => void}> = ({ onLinkClick }) => (
     <>
       {navLinks.map((link) => (
@@ -52,8 +47,8 @@ const Header: React.FC = () => {
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-black/30 backdrop-blur-lg shadow-lg' : 'bg-brand-primary'}`}>
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <a href="#home" className="z-50 flex items-center">
-          <img src="/Logo.png" alt="suyam's IMTT institute Logo" className="h-20 w-auto filter brightness-125 contrast-150 drop-shadow-lg" />
-          <span className="ml-3 text-2xl font-bold text-white">suyam's IMTT institute</span>
+          <img src="/Logo.png" alt="Suyam's IMTT Institute Logo" className="h-20 w-auto filter brightness-125 contrast-150 drop-shadow-lg" />
+          <span className="ml-3 text-2xl font-bold text-white">Suyam's IMTT Institute</span>
         </a>
         
         {/* Desktop Navigation */}
@@ -65,19 +60,7 @@ const Header: React.FC = () => {
             <a href="#inquiry" className="bg-brand-secondary text-white font-bold py-2 px-6 rounded-lg hover:bg-amber-400 transition-all transform hover:scale-105 shadow-md">
               Enquire Now
             </a>
-          </div>
-          <div className="flex flex-col gap-1">
-            {legalLinks.map((link) => (
-              <Link 
-                key={link.name}
-                to={link.href}
-                className="text-white text-sm hover:text-brand-accent transition-colors"
-              >
-                {link.name}
-              </Link>
-            ))}
-          </div>
-        </div>
+          </div>        </div>
         
         {/* Mobile Menu Button */}
         <div className="md:hidden z-50">
@@ -107,24 +90,7 @@ const Header: React.FC = () => {
             className="w-full bg-brand-secondary text-white font-bold py-3 px-6 rounded-lg hover:bg-amber-400 transition-all transform hover:scale-105 shadow-md"
           >
             Enquire Now
-          </a>
-          <div className="flex flex-col gap-2 pt-4 border-t w-full border-brand-secondary/30">
-            <a 
-              href="/privacy-policy"
-              onClick={() => setIsMobileMenuOpen(false)}
-              className="text-brand-light py-2 hover:text-brand-secondary transition-colors"
-            >
-              Privacy Policy
-            </a>
-            <a 
-              href="/terms-and-conditions" 
-              onClick={() => setIsMobileMenuOpen(false)} 
-              className="text-brand-primary py-2 hover:text-brand-secondary transition-colors"
-            >
-              Terms & Conditions
-            </a>
-          </div>
-        </div>
+          </a>        </div>
       </div>
     </header>
   );

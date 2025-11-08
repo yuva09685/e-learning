@@ -24,14 +24,14 @@ const MDProfile: React.FC = () => {
                 className="rounded-full shadow-lg object-cover w-48 h-48 mx-auto"
               />
               <h3 className="text-2xl font-bold text-brand-primary font-serif mt-4">Dr. A. P. J. Suyam</h3>
-              <p className="text-brand-secondary font-semibold">Managing Director, suyam's IMTT institute</p>
+              <p className="text-brand-secondary font-semibold">Managing Director, Suyam's IMTT Institute</p>
             </div>
             <div className="md:w-2/3">
               <p className="text-gray-600 italic text-lg mb-6 border-l-4 border-brand-accent pl-4">
                 "Our mission is to empower every student with the knowledge and skills to not just succeed, but to thrive and lead in the global landscape. We are committed to fostering an environment of innovation, critical thinking, and lifelong learning."
               </p>
               <p className="text-gray-500">
-                With over two decades of experience in the international education sector, Dr. Suyam has been a pivotal force in shaping modern learning methodologies. His vision for accessible, high-quality education led to the founding of suyam's IMTT institute and its prestigious affiliation with certified training center - british learning uk.
+                With over two decades of experience in the international education sector, Dr. Suyam has been a pivotal force in shaping modern learning methodologies. His vision for accessible, high-quality education led to the founding of Suyam's IMTT Institute and its prestigious affiliation with Certified Training Center - British Learning UK.
               </p>
             </div>
           </div>

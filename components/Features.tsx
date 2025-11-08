@@ -19,7 +19,7 @@ const features = [
       </svg>
     ),
     title: 'Global Curriculum',
-    description: 'Courses aligned with the certified training center - British Learning UK, ensuring worldwide recognition.'
+    description: 'Courses aligned with the Certified Training Center - British Learning UK, ensuring worldwide recognition.'
   },
   {
     icon: (
@@ -46,7 +46,7 @@ const Features: React.FC = () => {
     <section id="features" className="py-20 bg-brand-light">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-serif font-bold text-brand-primary">Why Choose suyam's IMTT institute?</h2>
+          <h2 className="text-3xl md:text-4xl font-serif font-bold text-brand-primary">Why Choose Suyam's IMTT Institute?</h2>
           <p className="text-lg text-gray-600 mt-4 max-w-2xl mx-auto">We offer a unique blend of academic rigor and practical skills to ensure your success.</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

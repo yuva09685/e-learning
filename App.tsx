@@ -1,6 +1,6 @@
 
-import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -15,6 +15,17 @@ import PrivacyPolicy from './components/PrivacyPolicy';
 import TermsAndConditions from './components/TermsAndConditions';
 
 const App: React.FC = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    const GA_MEASUREMENT_ID = 'YOUR_MEASUREMENT_ID'; // Or get from environment variables
+    if (window.gtag) {
+      window.gtag('config', GA_MEASUREMENT_ID, {
+        'page_path': location.pathname + location.search,
+      });
+    }
+  }, [location]);
+
   return (
     <Routes>
       <Route path="/" element={

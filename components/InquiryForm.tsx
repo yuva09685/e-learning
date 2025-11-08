@@ -5,13 +5,15 @@ import { submitInquiry, isEmailServiceConfigured } from '../services/emailServic
 
 const courseOptions = [
   'PG Diploma In Child Counselling',
-  'Diploma In Child Psychology',
   'PG Diploma In Special Needs Education',
-  'Diploma In Special Needs Education',
   'PG Diploma in International Teachers Training',
-  'Diploma in Pre-Primary Teachers Training',
   'PG Diploma in Early Childhood Care & Education',
+  'PG Diploma in Learning Disabilities',
+  'Diploma In Child Psychology',
+  'Diploma In Special Needs Education',
+  'Diploma in Pre-Primary Teachers Training',
   'Diploma in Early Childhood Care and Education',
+  'Diploma in Learning Disabilities',
   'Other'
 ];
 

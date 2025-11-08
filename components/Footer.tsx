@@ -8,14 +8,14 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
           <div>
-            <h3 className="text-xl font-serif font-bold mb-4">suyam's IMTT institute</h3>
-            <p className="text-gray-400">Pioneering excellence in education, affiliated with certified training center - british learning uk.</p>
+            <h3 className="text-xl font-serif font-bold mb-4">Suyam's IMTT Institute</h3>
+            <p className="text-gray-400">Pioneering excellence in education, affiliated with Certified Training Center - British Learning UK.</p>
           </div>
           <div>
             <h3 className="text-lg font-bold mb-4">Contact Us</h3>
             <ul className="space-y-2 text-gray-400">
               <li><a href="mailto:suyamgroups@gmail.com" className="hover:text-white">suyamgroups@gmail.com</a></li>
-              <li><a href="tel:+9884202619/ 7846630369 " className="hover:text-white">+91 9884202619 / 7846630369</a></li>
+              <li><a href="tel:+919884202619" className="hover:text-white">+91 9884202619</a> / <a href="tel:+917846630369" className="hover:text-white">7846630369</a></li>
               <li><a href="https://maps.app.goo.gl/ojAyfEt3LsXYXcVp9?g_st=aw" target="_blank" rel="noopener noreferrer" className="hover:text-white">38f thiruvallur st Venkataraman nagar korattur, chennai - 600050 , Tamilnadu</a></li>
             </ul>
           </div>
@@ -28,12 +28,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-gray-700 text-center text-gray-500 flex flex-col sm:flex-row justify-center items-center gap-4">
-          <p>&copy; {new Date().getFullYear()} suyam's IMTT institute. All Rights Reserved.</p>
-          <div className="flex gap-4">
-             <Link to="/privacy-policy" className="hover:text-white text-sm">Privacy Policy</Link>
-             <Link to="/terms-and-conditions" className="hover:text-white text-sm">Terms of Service</Link>
-          </div>
-        </div>
+          <p>&copy; {new Date().getFullYear()} suyam's IMTT institute. All Rights Reserved.</p>        </div>
       </div>
     </footer>
   );

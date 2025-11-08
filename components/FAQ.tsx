@@ -4,8 +4,8 @@ import { FAQItem } from '../types';
 
 const faqData: FAQItem[] = [
   {
-    question: "What is the affiliation with the certified training center - British Learning UK?",
-    answer: "Our affiliation with the certified training center - British Learning UK means our curriculum, teaching standards, and certifications are globally recognized. This ensures you receive a world-class education that is respected by employers and academic institutions worldwide."
+    question: "What is the affiliation with the Certified Training Center - British Learning UK?",
+    answer: "Our affiliation with the Certified Training Center - British Learning UK means our curriculum, teaching standards, and certifications are globally recognized. This ensures you receive a world-class education that is respected by employers and academic institutions worldwide."
   },
   {
     question: "Are the courses online, in-person, or hybrid?",

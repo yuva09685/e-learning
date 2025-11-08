@@ -17,7 +17,7 @@ const About: React.FC = () => {
               Pioneering Education for a Brighter Future
             </h2>
             <p className="text-brand-light mb-6 text-lg">
-              At suyam's IMTT institute, we are dedicated to providing an enriching and transformative educational experience. We are a certified training center - british learning uk, which ensures our curriculum is globally recognized and up-to-date with the latest industry standards.
+              At Suyam's IMTT Institute, we are dedicated to providing an enriching and transformative educational experience. We are a Certified Training Center - British Learning UK, which ensures our curriculum is globally recognized and up-to-date with the latest industry standards.
             </p>
             <ul className="space-y-4 text-left">
               <li className="flex items-start gap-4">

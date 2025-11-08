@@ -5,7 +5,7 @@ const courseData: Course[] = [
   {
     icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>,
     title: 'PG Diploma In Child Counselling',
-    description: 'Enhance your skills with our PG Diploma in Child Counselling. Gain practical knowledge and expertise to excel in educational settings. Enrol today!',
+    description: 'This post-graduate program is designed for professionals looking to specialize in child and adolescent counseling, addressing emotional and developmental challenges.',
     duration: '6 Months',
     prerequisites: ['High School Diploma or equivalent', 'Basic understanding of business concepts'],
     outcomes: [
@@ -16,22 +16,9 @@ const courseData: Course[] = [
     ]
   },
   {
-    icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" /></svg>,
-    title: 'Diploma In Child Psychology',
-    description: 'Enhance your skills with our Diploma in Child Psychology. Gain practical knowledge and expertise to excel in educational settings. Enrol today!',
-    duration: '9 Months',
-    prerequisites: ['Background in statistics or programming', 'Strong analytical and problem-solving skills'],
-    outcomes: [
-      'Clean, analyze, and visualize large datasets.',
-      'Build and deploy predictive machine learning models.',
-      'Communicate complex data findings to stakeholders.',
-      'Utilize tools like Python, R, and SQL for data analysis.'
-    ]
-  },
-  {
     icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>,
     title: 'PG Diploma In Special Needs Education',
-    description: 'Enhance your skills with our PG Diploma in Special Needs Education. Gain practical knowledge and expertise to excel in educational settings. Enrol today!',
+    description: 'A specialized PG diploma for educators focusing on inclusive teaching methodologies for children with diverse learning needs.',
     duration: '4 Months',
     prerequisites: ['Basic computer and internet literacy', 'Creativity and strong communication skills'],
     outcomes: [
@@ -42,22 +29,9 @@ const courseData: Course[] = [
     ]
   },
   {
-    icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" /></svg>,
-    title: 'Diploma In Special Needs Education',
-    description: 'Enhance your skills with our Diploma in Special Needs Education. Gain practical knowledge and expertise to excel in educational settings. Enroll today!',
-    duration: '8 Months',
-    prerequisites: ['Bachelor\'s degree in finance, economics, or a related field', 'Understanding of basic accounting principles'],
-    outcomes: [
-      'Analyze foreign exchange markets and manage currency risk.',
-      'Evaluate international investment opportunities.',
-      'Understand the complexities of multinational corporate finance.',
-      'Navigate global financial regulations and compliance.'
-    ]
-  },
-  {
     icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>,
     title: 'PG Diploma in International Teachers Training',
-    description: 'Enhance your skills with our PG Diploma in International Teachers Training. Gain practical knowledge and expertise to excel in educational settings. Enrol today!',
+    description: 'This PG diploma equips aspiring and current teachers with the skills needed for a successful career in international education.',
     duration: '6 Months',
     prerequisites: ['Basic HTML, CSS, and JavaScript knowledge', 'Fundamentals of programming concepts'],
     outcomes: [
@@ -68,22 +42,9 @@ const courseData: Course[] = [
     ]
   },
   {
-    icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" /></svg>,
-    title: 'Diploma in Pre-Primary Teachers Training',
-    description: 'Enhance your skills with our Diploma in Pre-Primary Teachers Training. Gain practical knowledge and expertise to excel in educational settings. Enroll today!',
-    duration: '7 Months',
-    prerequisites: ['Understanding of networking fundamentals', 'Basic server administration knowledge'],
-    outcomes: [
-      'Deploy and manage cloud infrastructure services.',
-      'Implement cloud security and compliance measures.',
-      'Optimize cloud resources for cost and performance.',
-      'Design highly scalable and available cloud solutions.'
-    ]
-  },
-  {
     icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" /></svg>,
     title: 'PG Diploma in Early Childhood Care & Education',
-    description: 'Enhance your skills with our PG Diploma in Early Childhood Care & Education. Gain practical knowledge and expertise to excel in educational settings. Enroll today!',
+    description: 'A comprehensive PG program focusing on the holistic development and care of young children in their formative years.',
     duration: '8 Months',
     prerequisites: ['Fundamentals of computer systems', 'Basic understanding of networking'],
     outcomes: [
@@ -94,9 +55,61 @@ const courseData: Course[] = [
     ]
   },
   {
+    icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" /></svg>,
+    title: 'PG Diploma in Learning Disabilities',
+    description: 'This advanced PG diploma provides in-depth knowledge and strategies for supporting students with learning disabilities.',
+    duration: '9 Months',
+    prerequisites: ['Background in statistics or programming', 'Strong analytical and problem-solving skills'],
+    outcomes: [
+      'Clean, analyze, and visualize large datasets.',
+      'Build and deploy predictive machine learning models.',
+      'Communicate complex data findings to stakeholders.',
+      'Utilize tools like Python, R, and SQL for data analysis.'
+    ]
+  },
+  {
+    icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" /></svg>,
+    title: 'Diploma In Child Psychology',
+    description: 'Explore the fundamentals of child psychology, including cognitive and social development, in this comprehensive diploma program.',
+    duration: '9 Months',
+    prerequisites: ['Background in statistics or programming', 'Strong analytical and problem-solving skills'],
+    outcomes: [
+      'Clean, analyze, and visualize large datasets.',
+      'Build and deploy predictive machine learning models.',
+      'Communicate complex data findings to stakeholders.',
+      'Utilize tools like Python, R, and SQL for data analysis.'
+    ]
+  },
+  {
+    icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" /></svg>,
+    title: 'Diploma In Special Needs Education',
+    description: 'This diploma provides essential skills for educators to support students with special needs in an inclusive classroom environment.',
+    duration: '8 Months',
+    prerequisites: ["Bachelor\'s degree in finance, economics, or a related field", 'Understanding of basic accounting principles'],
+    outcomes: [
+      'Analyze foreign exchange markets and manage currency risk.',
+      'Evaluate international investment opportunities.',
+      'Understand the complexities of multinational corporate finance.',
+      'Navigate global financial regulations and compliance.'
+    ]
+  },
+  {
+    icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" /></svg>,
+    title: 'Diploma in Pre-Primary Teachers Training',
+    description: 'A foundational diploma for aspiring pre-primary teachers, covering early childhood pedagogy and classroom management.',
+    duration: '7 Months',
+    prerequisites: ['Understanding of networking fundamentals', 'Basic server administration knowledge'],
+    outcomes: [
+      'Deploy and manage cloud infrastructure services.',
+      'Implement cloud security and compliance measures.',
+      'Optimize cloud resources for cost and performance.',
+      'Design highly scalable and available cloud solutions.'
+    ]
+  },
+  {
     icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg>,
     title: 'Diploma in Early Childhood Care and Education',
-    description: 'Enhance your skills with our Diploma in Early Childhood Care and Education. Gain practical knowledge and expertise to excel in educational settings. Enroll today!',
+    description: 'This diploma program focuses on the essential skills required for providing quality care and education to young children.',
     duration: '5 Months',
     prerequisites: ['Leadership capabilities', 'Communication and organizational skills'],
     outcomes: [
@@ -108,21 +121,8 @@ const courseData: Course[] = [
   },
   {
     icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" /></svg>,
-    title: 'PG Diploma in Learning Disabilities',
-    description: 'Enhance your skills with our PG Diploma in Learning Disabilities. Gain practical knowledge and expertise to excel in educational settings. Enroll today!',
-    duration: '9 Months',
-    prerequisites: ['Background in statistics or programming', 'Strong analytical and problem-solving skills'],
-    outcomes: [
-      'Clean, analyze, and visualize large datasets.',
-      'Build and deploy predictive machine learning models.',
-      'Communicate complex data findings to stakeholders.',
-      'Utilize tools like Python, R, and SQL for data analysis.'
-    ]
-  },
-  {
-    icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" /></svg>,
     title: 'Diploma in Learning Disabilities',
-    description: 'Enhance your skills with our Diploma in Learning Disabilities. Gain practical knowledge and expertise to excel in educational settings. Enroll today!',
+    description: 'A comprehensive diploma program designed to provide educators with the skills to support students with learning disabilities.',
     duration: '9 Months',
     prerequisites: ['Background in statistics or programming', 'Strong analytical and problem-solving skills'],
     outcomes: [
