@@ -28,7 +28,12 @@ const Footer: React.FC = () => {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-gray-700 text-center text-gray-500 flex flex-col sm:flex-row justify-center items-center gap-4">
-          <p>&copy; {new Date().getFullYear()} suyam's IMTT institute. All Rights Reserved.</p>        </div>
+          <p>&copy; {new Date().getFullYear()} suyam's IMTT institute. All Rights Reserved.</p>
+          <div className="flex flex-wrap justify-center gap-4">
+            <Link to="/privacy-policy" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</Link>
+            <Link to="/terms-and-conditions" className="text-gray-400 hover:text-white transition-colors">Terms & Conditions</Link>
+          </div>
+        </div>
       </div>
     </footer>
   );
