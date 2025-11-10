@@ -40,7 +40,7 @@ const TermsAndConditions: React.FC = () => {
           
           <p className="text-gray-700 mb-4">
             All content, materials, and resources provided as part of our courses are the intellectual 
-            property of suyam's IMTT institute and are protected by copyright laws. You may not reproduce, 
+            property of Suyam Groups and are protected by copyright laws. You may not reproduce, 
             distribute, or create derivative works from our content without explicit written permission.
           </p>
           
@@ -154,11 +154,11 @@ const TermsAndConditions: React.FC = () => {
           </p>
           
           <p className="text-gray-700 mb-4">
-            By email: info@suyamslearning.com
+            By email: suyamgroups@gmail.com
           </p>
           
           <p className="text-gray-700">
-            By visiting this page on our website: www.suyamslearning.com
+            By visiting this page on our website: www.suyamgroups.com
           </p>
         </div>
       </div>

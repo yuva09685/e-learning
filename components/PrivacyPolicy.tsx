@@ -12,7 +12,7 @@ const PrivacyPolicy: React.FC = () => {
           </p>
           
           <p className="text-gray-700 mb-6">
-            suyam's IMTT institute ("we", "our", "us") operates the suyam's IMTT institute website and provides 
+            Suyam Groups ("we", "our", "us") operates the Suyam Groups website and provides 
             educational services. This page informs you of our policies regarding the collection, 
             use, and disclosure of personal data when you use our services and the choices you have 
             associated with that data.
@@ -54,7 +54,7 @@ const PrivacyPolicy: React.FC = () => {
           
           <h2 className="text-2xl font-serif font-bold text-brand-primary mt-8 mb-4">Use of Data</h2>
           <p className="text-gray-700 mb-4">
-            suyam's IMTT institute uses the collected data for various purposes:
+            Suyam Groups uses the collected data for various purposes:
           </p>
           
           <ul className="list-disc pl-8 text-gray-700 mb-6">
@@ -65,7 +65,23 @@ const PrivacyPolicy: React.FC = () => {
             <li>To gather analysis or valuable information so that we can improve our service</li>
             <li>To monitor the usage of our service</li>
             <li>To detect, prevent and address technical issues</li>
+            <li>To contact you with marketing or promotional materials and other information that may be of interest to you. You may opt out of receiving any, or all, of these communications from us by following the unsubscribe link or instructions provided in any email we send.</li>
           </ul>
+
+          <h2 className="text-2xl font-serif font-bold text-brand-primary mt-8 mb-4">Lead Forms</h2>
+          <p className="text-gray-700 mb-4">
+            When you submit a lead form on our website, we collect the personal information you provide, such as your name, email address, and phone number. We use this information to respond to your inquiry, provide you with information about our services, and for marketing purposes. By submitting a lead form, you consent to us contacting you for these purposes.
+          </p>
+
+          <h2 className="text-2xl font-serif font-bold text-brand-primary mt-8 mb-4">Data Sharing and Disclosure</h2>
+          <p className="text-gray-700 mb-4">
+            We do not sell or rent your personal data to third parties. We may share your personal data with third-party service providers to help us operate our business and provide our services, such as sending emails and processing payments. These third parties are contractually obligated to keep your information confidential and use it only for the purposes for which we disclose it to them.
+          </p>
+
+          <h2 className="text-2xl font-serif font-bold text-brand-primary mt-8 mb-4">User Rights</h2>
+          <p className="text-gray-700 mb-4">
+            You have the right to access, correct, or delete your personal information. You may also have the right to restrict or object to certain processing of your personal information. To exercise these rights, please contact us at suyamgroups@gmail.com.
+          </p>
           
           <h2 className="text-2xl font-serif font-bold text-brand-primary mt-8 mb-4">Transfer of Data</h2>
           <p className="text-gray-700 mb-4">
