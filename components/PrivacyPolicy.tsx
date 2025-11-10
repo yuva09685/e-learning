@@ -161,11 +161,11 @@ const PrivacyPolicy: React.FC = () => {
           </p>
           
           <p className="text-gray-700 mb-4">
-            By email: info@suyamslearning.com
+            By email: suyamgroups@gmail.com
           </p>
           
           <p className="text-gray-700">
-            By visiting this page on our website: www.suyamslearning.com
+            By visiting this page on our website: www.suyamgroups.com
           </p>
         </div>
       </div>
